@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Характеристика</title>
+    <style>
+        .text {
+            text-align: center;
+            
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            padding: 20px;
+            border: 10px solid transparent; /* Нужен прозрачный бордер для градиента */
+            border-radius: 15px; /* Радиус округления для рамки */
+            background: rgb(0, 0, 0); /* Цвет фона внутри рамки */
+            animation: rainbowBorder 3s linear infinite; /* Запуск анимации */
+            color: #fff;
+        }
+
+        @keyframes rainbowBorder {
+            0% {
+                border-color: rgb(94, 159, 255);
+            }
+            16% {
+                border-color: rgb(247, 194, 79);
+            }
+            32% {
+                border-color: rgb(255, 255, 128);
+            }
+            49% {
+                border-color: rgb(149, 255, 149);
+            }
+            65% {
+                border-color: rgb(160, 160, 255);
+            }
+            82% {
+                border-color: rgb(212, 151, 255);
+            }
+            100% {
+                border-color: rgb(255, 175, 255);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="text">
+       <h2>Характеристика</h2>
+         <p>
+          Характеристика - показатель работы на должности, <br>
+          в котором содержатся анкетные данные работника, <br>
+          описание его трудовой деятельности и оценка работодателем личных и деловых качеств сотрудника.  <br>
+          Из характеристики можно сделать предварительный вывод о компетентности человека и его личных качествах, основываясь на характеристике.
+         </p>
+    </div>
+</body>
+</html>
